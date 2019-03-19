@@ -1,48 +1,16 @@
-# Chrome Extension TypeScript React Starter Kit
+# Chrome Extension (built with TypeScript + React)
 
-Chrome Extension Starter Kit, for TypeScript and React.
+> This project is a boilerplate project to allow you to quickly build chrome extensions using TypeScript and React.
 
-## What is new
-Forked from [chibat's original starter kit](https://github.com/chibat/chrome-extension-typescript-starter), this kit essentially adds *React* support for **popup** and **options** windows.
+## Building
 
-Plus a bunch of other improvements like source mapping and a better build setup!
+1.  Clone repo
+2.  `npm i`
+3.  `npm run dev` to compile once or `npm run watch` to run the dev task in watch mode
+4.  `npm run build` to build a production (minified) version
 
----
+## Installation
 
-## Includes the following
-- TypeScript
-- React
-- Webpack
-- TSLint
-- Moment.js
-- jQuery
-
-## Project Structure
-- `src`: TypeScript source files
-- `public`: Chrome Extension manifest, icon, HTMLs
-- `dist`: This is where the Chrome Extension will be built
-  - `dist/build`: Generated JavaScript bundles with source mapping, and assets
-
-## Development build
-Runs webpack in watch mode, generates bundles with source mapping
-```
-npm start
-```
-
-## Production build
-Runs webpack and generates the minified bundles
-```
-npm run build
-```
-
-## Load extension to chrome
-- Build the extension
-- Open Chrome and go to `chrome://extensions`
-- Click `Load unpacked extension...`
-- Load the `dist` directory
-
-## Debugging your extension
-- Click on the icon of your extension opens the **popup** window
-- Right click and open DevTools
-- In DevTools you can press Ctrl+R to reload
-- Because source maps are generated, you can easily debug your ts code in DevTools
+1.  Complete the steps to build the project above
+2.  Go to [_chrome://extensions_](chrome://extensions) in Google Chrome
+3.  With the developer mode checkbox ticked, click **Load unpacked extension...** and select the _dist_ folder from this repo

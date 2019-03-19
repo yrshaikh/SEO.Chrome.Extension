@@ -1,17 +1,11 @@
 {
-  "extends": [
-    "tslint:latest",
-    "tslint-react"
-  ],
-  "rules": {
-    "indent": [
-      true,
-      "spaces",
-      2
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-config-airbnb",
+        "tslint-react"
     ],
-    "no-console": [
-      false
-    ],
-    "no-var-requires": false
-  }
+    "jsRules": {},
+    "rules": {},
+    "rulesDirectory": []
 }
