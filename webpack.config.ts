@@ -15,7 +15,6 @@ const buildConfig: webpack.Configuration = {
   entry: {
     background_script: path.join(__dirname, "src/background_script/index.ts"),
     content_script: path.join(__dirname, "src/content_script/index.ts"),
-    options: path.join(__dirname, "src/options/index.tsx"),
     popup: path.join(__dirname, "src/popup/index.tsx"),
   },
   // tslint:disable-next-line:no-object-literal-type-assertion
